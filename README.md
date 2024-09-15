@@ -1,9 +1,9 @@
 # yeelight-discord
 Discord Bot Utilizing Yeelight Python Library (Local Only)
 
-This is an extremely simple bot and a fun little project of mine that uses YeeLight python library. The bot can be added to servers of your choosing. However, it requires that you run this bot on a server/computer with LAN Access to the Yeelight Bulbs or Lightstrips.
+This is an extremely simple bot that utilizes the Yeelight Python Lib. The bot can be added any server of your choosing but preferably your own private server. It is required however, that you host this bot instance on a server/computer with LAN Access to the Yeelight Devices (if non-local access is warranted, consider setting up a private vpn on the network that Yeelight is connected to).
 
-Notes:
+Usage:
 - Create a discord bot here -> https://discord.com/developers/applications and input your token in the env file. KEEP THIS TOKEN A SECRET! 
 - Please enable LAN Control in the YeeLight App (Important)
 - Be sure to have both dot-env and yeelight library installed. Please install both these libraries if you do not have it. **Check the "Links" section for the link to said libraries.**
@@ -16,6 +16,6 @@ v0.1
 - On/Off Feature
 - (Much more will be added soon)
 
-# Links 
-https://yeelight.readthedocs.io/en/latest/
-https://pypi.org/project/python-dotenv/
+# Lib Links 
+- https://yeelight.readthedocs.io/en/latest/
+- https://pypi.org/project/python-dotenv/
