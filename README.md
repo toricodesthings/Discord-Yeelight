@@ -4,9 +4,7 @@
 
 Yeelight Discord Bot is a simple yet powerful bot utilizing the Yeelight Python Library for local device control. It's a fun bot, and SHOULD be used for private servers. The bot instance must be hosted on a server or computer with LAN access to your Yeelight devices. For remote usage, consider setting up a private VPN on the network hosting your Yeelight devices. Currently, it allows comprehensive control of your bulbs and lightstrips, including power control, brightness, color customization, and more.
 
----
-
-## Features
+### Features
 
 - **Device Discovery**: Automatically discover Yeelight bulbs on your local network.
 - **Direct IP Management**: Manually set active bulb IP addresses.
@@ -21,8 +19,6 @@ Yeelight Discord Bot is a simple yet powerful bot utilizing the Yeelight Python 
 - **Adjustment Modes**: Choose between smooth transitions or sudden changes.
 - **Music Mode**: Toggle music synchronization mode for enhanced effects.
 - **Device Renaming**: Rename your bulbs directly via Discord commands.
-
----
 
 ## Installation
 
@@ -77,8 +73,6 @@ Yeelight Discord Bot is a simple yet powerful bot utilizing the Yeelight Python 
 - `music <on/off>`: Toggle music synchronization mode.
 - `name <new name>`: Rename the current bulb.
 
----
-
 ## Changelog
 
 ### v1.0
@@ -90,20 +84,14 @@ Yeelight Discord Bot is a simple yet powerful bot utilizing the Yeelight Python 
 - Initial base code implementation.
 - Basic on/off functionality.
 
----
-
 ## Helpful Links
 - [Yeelight Python Documentation](https://yeelight.readthedocs.io/en/latest/)
 - [python-dotenv on PyPI](https://pypi.org/project/python-dotenv/)
 - [discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
 
----
-
 ## Security & Privacy
 
 Always keep your Discord bot token private. Never share this token publicly or commit it to public repositories.
-
----
 
 ## License
 
